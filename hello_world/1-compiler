@@ -1,2 +1,2 @@
 #!/bin/bash
-cl > $CFILE=main.o
+c.o > $CFILE
