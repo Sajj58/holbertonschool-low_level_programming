@@ -1,5 +1,5 @@
 #include <stdio.h>
-/**
+ /**
  * main - Entrée
  * 
  * Return: toujours à 0 (Success)
