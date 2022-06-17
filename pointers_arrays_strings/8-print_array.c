@@ -20,9 +20,4 @@ void print_array(int *a, int n)
 		b++;
 	}
 	printf("\n");
-}
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
 
