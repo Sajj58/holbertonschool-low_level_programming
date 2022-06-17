@@ -1,23 +1,25 @@
-#include "main.h"
+#include "holberton.h"
 #include <stdio.h>
 
 /**
  * print_array - prints n elements in the array a
  * @a: array to print
  * @n: number of elements to print
+ *
  * Return: void
  */
 
 void print_array(int *a, int n)
 {
-	int b = 0;
+	int i = 0;
 
-	while (b < n)
+	while (i < n)
 	{
-		printf("%d", a[b]);
-		if (b < (n - 1))
+		printf("%d", a[i]);
+		if (i < (n - 1))
 			printf(", ");
-		b++;
+		i++;
 	}
 	printf("\n");
+};
 
