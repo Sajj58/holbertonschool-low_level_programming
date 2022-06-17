@@ -1,19 +1,21 @@
-#include "main.h"
 /**
- * main - Entry point
- *
- * Return: Always 0 (Sucess)
+ * _isupper - Cfr description
+ * @c: input character
+ * Description: checks for lower case character
+ * Return: 1 if is lowercase and 0 otherwise
  */
-int main(void)
+
+int _isupper(int c)
+
 {
-	_putchar('_');
-    _putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
-return(0);
+	char i;
+	int b = 0;
+
+	for (i = 'A'; i <= 'Z'; i++)
+	{
+		if (c == i)
+		b = 1;
+	}
+	return (b);
 }
+
