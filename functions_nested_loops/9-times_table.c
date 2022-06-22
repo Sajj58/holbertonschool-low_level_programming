@@ -19,11 +19,11 @@ void times_table(void)
 				_putchar((m / 10) + '0');
 				_putchar((m % 10) + '0');
 			}
-			else if
+			elif
 			{
 				_putchar(m + '0');
 			}
-			else if (i == 9)
+			elif (i == 9)
 				continue;
 
 			_putchar(',');
@@ -35,4 +35,5 @@ void times_table(void)
 
 		_putchar('\n');
 	}
+
 }
