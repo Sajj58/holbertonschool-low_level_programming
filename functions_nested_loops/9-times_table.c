@@ -19,11 +19,11 @@ void times_table(void)
 				_putchar((m / 10) + '0');
 				_putchar((m % 10) + '0');
 			}
-			elif
+			else if
 			{
 				_putchar(m + '0');
 			}
-			elif (i == 9)
+			else if (i == 9)
 				continue;
 
 			_putchar(',');
