@@ -5,20 +5,19 @@
  * print_array - prints n elements in the array a
  * @a: array to print
  * @n: number of elements to print
- *
  * Return: void
  */
 
 void print_array(int *a, int n)
 {
-	int i = 0;
+	int b = 0;
 
-	while (i < n)
+	while (b < n)
 	{
-		printf("%d", a[i]);
-		if (i < (n - 1))
+		printf("%d", a[b]);
+		if (b < (n - 1))
 			printf(", ");
-		i++;
+		b++;
 	}
 	printf("\n");
 }
