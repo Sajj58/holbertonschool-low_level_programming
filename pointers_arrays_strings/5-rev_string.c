@@ -1,25 +1,38 @@
 #include "main.h"
-#include<stdio.h>
 
 /**
- * rev_string - Reverses a string
- * @s: modified
+ * _strstr - substring needle in the string haystack
+ *
+ * @haystack:variable
+ * @needle:variable
+ *
+ * Return: Always 0.
  */
-void rev_string(char *s)
-{
-	int a = 0, b = 0;
-	char str[500];
 
-	while (*(s + a))
+char *_strstr(char *haystack, char *needle)
+{
+
+	int a = 0, b = 0;
+
+	while (haystack[a])
 	{
-		*(str + a) = *(s + a);
+		while (needle[b])
+		{
+			if (haystack[a + b] != needle[b])
+			{
+				break;
+			}
+
+			b++;
+		}
+
+		if (needle[b] == '\0')
+		{
+			return (haystack + a);
+		}
+
 		a++;
 	}
-	a = a - 1;
-	while (a >= 0)
-	{
-		*(s + a) = *(str + b);
-		b++;
-		a--;
-	}
+
+	return ('\0');
 }
