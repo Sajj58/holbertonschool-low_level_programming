@@ -1,17 +1,32 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * _puts - prints a string, followed by a new line
- * @str:variable
+ * _strspn - search a string for a set of bytes
+ * @s: source string
+ * @accept: accepted string
+ *
+ * Return: number of bytes in the init segment
  */
-
-void _puts(char *str)
+unsigned int _strspn(char *s, char *accept)
 {
+	unsigned int a = 0, b, d = 0;
 
-	for (; *str != '\0'; str++)
+	while (accept[a])
 	{
-		_putchar(*str);
+		b = 0;
+
+		while (s[b] != 32)
+		{
+			if (accept[a] == s[b])
+			{
+				d++;
+			}
+
+			b++;
+		}
+
+		a++;
 	}
-	_putchar('\n');
+
+	return (d);
 }
