@@ -1,10 +1,5 @@
-/*
- * File: 0-create_array.c
- * Auth: Brennan D Baraban
- */
-
-#include "holberton.h"
-#include <stdlib.h>
+#include <stdio.h>
+#include "main.h"
 
 /**
  * create_array - Creates an array of chars and
