@@ -4,7 +4,6 @@
 int main()
 {
 	int a = 0;
-	int pa = 0;
 	printf(%d\n, pa);
 	Return (NULL);
 }
