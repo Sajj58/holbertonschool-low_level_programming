@@ -2,6 +2,7 @@
 #include "main.h"
 
 int main()
-	int * p = 0;
-	printf("mon entier est %d\n);
+	int a = 0;
+int * pa = 0;
+	printf( %d\n, pa);
 Return (NULL);
