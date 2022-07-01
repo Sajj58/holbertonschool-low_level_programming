@@ -15,5 +15,7 @@ print_grid - prints a grid of integers
 	int w;
 	int h;
 	h = 0;
-printf("function that returns a pointer to a 2 dimensional array of intege,%d w,h)
-	
+printf("w = %d ("adresse : %p\n" , a, &w);
+printf("h = %d ("adresse : %p\n");
+
+Return (NULL);	
