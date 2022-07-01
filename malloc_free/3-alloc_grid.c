@@ -11,10 +11,14 @@ print_grid - prints a grid of integers
  * Return: Nothing.
  */
 
-void print_grid(int **grid, int width, int height)
 {
-    int w;
-    int h;
+int w;
+int h;
+w = [Ø]
+h = [0]
 
-    h = 0;
+w = malloc(sizeof 0(int));
+h = malloc(sizeof 0(int));
+
+Return (NULL);
 }
