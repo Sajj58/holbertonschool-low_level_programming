@@ -11,9 +11,22 @@ print_grid - prints a grid of integers
  * Return: Nothing.
  */
 
+void print_grid(int **grid, int width, int height)
 {
-	int w;
-	int h;
-	int $ tab = malloc(sizeof(int));
+    int w;
+    int h;
 
-	tab [];
+    h = 0;
+    while (h < height)
+    {
+        w = 0;
+        while (w < width)
+        {
+            printf("%d ", grid[h][w]);
+            w++;
+        }
+        printf("\n");
+        h++;
+    }   
+}
+
