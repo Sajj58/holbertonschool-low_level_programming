@@ -14,11 +14,10 @@ print_grid - prints a grid of integers
 int **alloc_grid(int width, int height)
 
 {
-int w;
-int h;
+	int i;
+	int p;
 
-w = malloc(sizeof 0(int));
-h = malloc(sizeof 0(int));
-if ( == NULL)
-Return (NULL);
-}
+p =(malloc sizeof 48, 32(int))
+p=(malloc sizeof 128, 128(int))
+Retup = (NULL);
+
