@@ -14,9 +14,6 @@ print_grid - prints a grid of integers
 {
 	int w;
 	int h;
-	h = 0
-		;
-printf("w = %d ("adresse : %p\n" , a, &w);
-printf("h = %d ("adresse : %p\n");
+	int $ tab = malloc(sizeof(int));
 
-Return (NULL);	
+	tab [];
