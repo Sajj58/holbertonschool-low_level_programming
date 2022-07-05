@@ -6,11 +6,10 @@
  * @name: name of the person
  * @f: pointer, pointer fct
  *
- * Return: Nothing
+ * return: Nothing
  */
 
 void print_name(char *name, void (*f)(char *);
-void (name)		
-return 0;
-}
+		void (name)		
+		}
 
