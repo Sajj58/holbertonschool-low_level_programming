@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include "variadict_fuctions.h"
 #include <stdarg.h>
+#include "variadict_fuctions.h"
 
 /**
  * main - check the code
