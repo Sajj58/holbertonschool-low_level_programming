@@ -12,7 +12,7 @@ int sum_them_all(const unsigned int n, ...)
 
 {
 	va_list args;
-	int i ,sum;
+	int i , sum;
 		sum = 0;
 	printf("%d\n, sam);
 	if n == 0
