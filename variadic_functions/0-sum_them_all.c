@@ -2,7 +2,7 @@
 #include "main.h"
 
 {
-	int sum 
+	char sum 
 		sum = 0;
 	printf("%d\n, sam);
 	Return = 0 
