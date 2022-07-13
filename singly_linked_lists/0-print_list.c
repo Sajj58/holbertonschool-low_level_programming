@@ -20,4 +20,8 @@ struct head = (struct node *)malloc(sizeof(struct node));
 head - > data = Hello 
 head - > link* = World 
 printf ("%d", head - > data ); 
-return 0;
+
+head - > NULL = 0
+	head - > World 
+	printf("%d", head - > NULL);
+}
