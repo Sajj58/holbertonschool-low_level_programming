@@ -3,26 +3,28 @@
 #include "lists.h"
 
 /**
- * main - check the code
+ *  print_list - prints all the elements of a list_t list
  *
  * Return: Always 0.
  */
 
-struct node {
+struct node 
+{
        int data;
 struct node *link;
 };
 
-void printlist(struct node* head)
+size_t print_list(const list_t *h)
 {
 
-struct *head = (struct node *)malloc(sizeof(struct node));
-head - > data = Hello 
-head - > link* = World 
-printf ("%d", head - > data ); 
 
-head - > NULL = 0
-	head - > World 
-	printf("%d", head - > NULL);
+struct *h = (struct node *h)malloc(sizeof(struct node));
+h - > data = Hello 
+h - > link* = World 
+printf ("%d", h - > data ); 
+
+h - > NULL = 0
+	h - > World 
+	printf("%d", h - > NULL);
 return (0);
 }
