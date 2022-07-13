@@ -13,17 +13,18 @@ int sum_them_all(const unsigned int n, ...)
 {
 	va_list args;
 	va_start (n , args);
-	for ( i = 0 , i < n ; i++);
+	{
+		for ( i = 0 , i < n ; i++);
+	}
 	{
 		resultat = resultat + va_arg (args , unsigned int);
 	}
 Return : (1122)
-	{
-		for (i = 0 , i < n ; i--);
-	
+	 {
+		 for (i = 0 , i < n ; i--);
+
 Return : (500)
-	}
+	 }
 Return : 0
-		
 }
 
