@@ -2,7 +2,7 @@
 #include <stdarg.h>
 #include "variadict_fuctions.h"
 
-/**
+/*
  * main - check the code
  *
  * Return: Always 0.
