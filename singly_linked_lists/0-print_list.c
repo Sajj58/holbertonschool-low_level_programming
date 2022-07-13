@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "lists.h"
 
 /**
  * main - check the code
@@ -10,9 +11,11 @@
 struct node {
        int data;
 struct node *link;
-}
-struct node *head = NULL
-head = (struct node *)malloc(sizeof(struct node));
-head - > = 0;
+};
+
+void printlist(struct node* head)
+{
+
+struct head = (struct node *)malloc(sizeof(struct node));
 
 
