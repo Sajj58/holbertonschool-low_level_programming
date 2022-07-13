@@ -17,5 +17,7 @@ void printlist(struct node* head)
 {
 
 struct head = (struct node *)malloc(sizeof(struct node));
-
-
+head - > data = Hello 
+head - > link* = World 
+printf ("%d", head - > data ); 
+return 0;
