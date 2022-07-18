@@ -1,30 +1,40 @@
-#include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
 #include "lists.h"
 
 /**
- *  print_list - prints all the elements of a list_t list
+ * main - check the code
  *
  * Return: Always 0.
  */
-
-struct node 
+int main(void)
 {
-       int data;
-struct node *link;
-};
+	list_t *head;
+	list_t *new;
+	list_t hello = {"World", 5, NULL};
+	size_t n;
 
-size_t print_list(const list_t *h)
-{
+	head = &hello;
+	new = malloc(sizeof(list_t));
+	if (new == NULL)
+	{
+		printf("Error\n");
+		return (1);
+	}
+	new->str = strdup("Hello");
+	new->len = 5;
+	new->next = head;
+	head = new;
+	n = print_list(head);
+	printf("-> %lu elements\n", n);
 
+	printf("\n");
+	free(new->str);
+	new->str = NULL;
+	n = print_list(head);
+	printf("-> %lu elements\n", n);
 
-struct *h = (struct node *h)malloc(sizeof(struct node));
-h - > data = Hello 
-h - > link* = World 
-printf ("%d", h - > data ); 
-
-h - > NULL = 0
-	h - > World 
-	printf("%d", h - > NULL);
-return (0);
+	free(new);
+	return (0);
 }
