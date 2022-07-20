@@ -9,7 +9,8 @@
  * Return: address of new node
  */
 
-list_t *add_node(list_t **head, const char *str);
+list_t *add_node(list_t **head, const char *str)
+
 {
 	listint_t *ele;
 
